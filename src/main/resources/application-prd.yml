@@ -7,6 +7,9 @@ spring:
     open-in-view: false
     hibernate:
       ddl-auto: create
-    properties:
-      hibernate:
-        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+#  spring.datasource.url=jdbc:postgresql://postgresql://postgres:GfIJtheQNZSgPQXoazmMBihZVlhOYMji@postgres.railway.internal:5432/railway
+#  spring.datasource.username=postgres
+#  spring.datasource.password=GfIJtheQNZSgPQXoazmMBihZVlhOYMji
+#  spring.datasource.driver-class-name=org.postgresql.Driver
+#  spring.jpa.hibernate.ddl-auto=update
